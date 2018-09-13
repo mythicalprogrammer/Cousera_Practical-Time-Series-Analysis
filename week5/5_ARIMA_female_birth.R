@@ -28,10 +28,6 @@ Box.test(diff(number_of_births), lag = log(length(diff(number_of_births))))
 acf(diff(number_of_births), main='ACF of differenced data', 50)
 pacf(diff(number_of_births), main='PACF of differenced data', 50)
 
-female_data_ts <- ts(female_data)
-auto.arima(female_data_ts, approximation = FALSE)
-auto.arima(female_data_ts, approximation = TRUE)
-
 # Fit various ARIMA models
 
 

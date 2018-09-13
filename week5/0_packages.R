@@ -13,5 +13,5 @@ ipak <- function(pkg){
 }
 
 # usage
-packages <- c("forecast")
+packages <- c("forecast", "astsa")
 ipak(packages)
